@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/button_key"
+        android:layout_width="35dp"
+        android:layout_height="50dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/keyboard_button"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:text="err"
+        android:textColor="@color/color_primary"
+        android:fontFamily="@font/markazitext_bold"
+        android:textSize="26sp"
+        android:clickable="true"
+        android:focusable="true"
+        />
+</RelativeLayout>

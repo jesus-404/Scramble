@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Whites -->
+    <color name="color_primary">#FFFFFF</color>
+    <color name="color_secondary">#F5F5F5</color>
+    <color name="color_tertiary">#E0E0E0</color>
+    <color name="color_quaternary">#CCCCCC</color>
+    <color name="color_quinary">#B3B3B3</color>
+    <!-- Blacks -->
+    <color name="color_black">#191919</color>
+    <color name="color_dark_primary">#1f2020</color>
+    <color name="color_dark_secondary">#454545</color>
+    <!-- Yellows -->
+    <color name="color_warning1">#FFED97</color>
+    <color name="color_warning2">#FFDC39</color>
+    <!-- Greens -->
+    <color name="color_success1">#AAD576</color>
+    <color name="color_success2">#88C354</color>
+</resources>

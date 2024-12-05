@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_primary">
+        <RelativeLayout
+            android:id="@+id/tile_stroke"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="3dp"
+            android:background="@drawable/shape_square_rounded_light"
+            android:backgroundTint="@color/color_tertiary">
+            <RelativeLayout
+                android:id="@+id/tile_solid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="@drawable/shape_square_rounded_heavy"
+                android:backgroundTint="@color/color_primary"
+                android:layout_centerInParent="true">
+                <TextView
+                    android:id="@+id/title_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/text_error"
+                    android:textColor="@color/color_black"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textSize="28sp"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+</RelativeLayout>
